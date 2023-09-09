@@ -1,12 +1,18 @@
 #include <stdio.h>
+
 /**
- * main - represent Entry Point to the program
+ * main - Prints all single digit numbers of base 10 starting from 0.
  *
- * Return: 0 to stop the program
+ * Return: Always 0.
  */
 int main(void)
 {
-int a = 0;
+	int num;
 
-for (; a < 10 ; a++)
-printf("%d", a);
+	for (num = 0; num < 10; num++)
+		printf("%d", num);
+
+	printf("\n");
+
+	return (0);
+}
